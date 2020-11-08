@@ -1,5 +1,5 @@
 # Anonymous Repository Convert
-Convert an existing repository to an anonymous repositoryy with new user, email, and merge messages.
+Convert an existing repository to an anonymous repository with new user, email, and merge messages.
 
 ## Problem
 You may find you have some code you would like to share publicly.
