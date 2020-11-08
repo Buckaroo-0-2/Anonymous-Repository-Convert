@@ -2,7 +2,7 @@
 Convert an existing repository to an anonymous reposity with new user, email, and merge messages.
 
 ## Problem
-You may find you have some code you would like to share publicly, but do not want to tie it to your existing public profile.
+You may find you have some code you would like to share publicly, but do not want to expose your existing public profile.
 
 The user, email, and merge commit messages show the information of the existing public profile.
 
