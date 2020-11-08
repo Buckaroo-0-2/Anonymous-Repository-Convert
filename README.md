@@ -82,3 +82,10 @@ git push -f --set-upstream origin main
 This will produce an exact replica of the commit history under another account.
 
 This will work even if the code pre-dates the account creation date.
+
+### Warning
+Github only allows an SSH key to be used on a single account.
+
+If you are using the same machine, you may need to remove the key.
+
+The site will allow you to add/remove keys to facilitate this without limit.
