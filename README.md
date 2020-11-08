@@ -2,7 +2,9 @@
 Convert an existing repository to an anonymous reposity with new user, email, and merge messages.
 
 ## Problem
-You may find you have some code you would like to share publicly, but do not want to expose your existing public profile.
+You may find you have some code you would like to share publicly.
+
+The code exists on a profile you do not want to expose publicly.
 
 The user, email, and merge commit messages show the information of the existing public profile.
 
@@ -19,7 +21,9 @@ Merge branch 'master' of github.com:Anonymous/SuperRadCode
 
 
 ## Solution
-I would recomend having a backup of the infomation ready, in case you make a mistake you can easily start over.
+I would recomend having a backup of the infomation ready.
+
+If you make a mistake you can easily start over.
 ### Convert
 Make a local clone of the existing reposity.
 
@@ -75,4 +79,6 @@ Switch to new default branch, and force push to new reposity:
 git branch -M main
 git push -f --set-upstream origin main
 ```
-This will produce an exact replica of the commit history under another account even if the code pre-dates the account.
+This will produce an exact replica of the commit history under another account.
+
+This will work even if the code pre-dates the account creation date.
